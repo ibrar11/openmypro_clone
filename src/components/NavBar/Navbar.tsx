@@ -1,3 +1,4 @@
+import Link from "next/link";
 import DocFileIcon from "../icons/DocFileIcon";
 import InfoCircleIcon from "../icons/InfoCircleIcon";
 import MenuIcon from "../icons/MenuIcon";
@@ -6,7 +7,7 @@ import ShieldIcon from "../icons/ShieldIcon";
 import "./NavBar.css"
 
 type NavBarProps = {
-  handleDrawer: (...args: any[]) => unknown
+  handleDrawer: (...args: void[]) => unknown
 }
 
 export default function Navbar({handleDrawer}: NavBarProps) {
@@ -14,14 +15,14 @@ export default function Navbar({handleDrawer}: NavBarProps) {
     <header className="navbar">
       <div className="navbar-container">
         <div className="navbar-logo-container">
-          <a href="/">
+          <Link href="/">
             <img 
               src="https://www.openmypro.com/_next/image?url=%2Fassets%2Fimages%2FOMDLogo.png&w=96&q=100" 
               alt="logo" 
               width={45}
               height={40}
             />
-          </a>
+          </Link>
         </div>
         <div className="navbar-searchBar-container">
           <div className="navbar-searchBar-subContainer">
@@ -59,7 +60,7 @@ export default function Navbar({handleDrawer}: NavBarProps) {
                 <span className="aboutCompany-collapseMenu-text">Company</span>
                 <ul className="aboutCompany-collapseMenu-list">
                   <li className="aboutCompany-collapseMenu-list-item">
-                    <a 
+                    <Link 
                       className="aboutCompany-item-option" 
                       href="https://www.blossend.com/about"
                       target="_blank"
@@ -67,10 +68,10 @@ export default function Navbar({handleDrawer}: NavBarProps) {
                     >
                       <InfoCircleIcon/>
                       About
-                    </a>
+                    </Link>
                   </li>
                   <li className="aboutCompany-collapseMenu-list-item">
-                    <a 
+                    <Link 
                       className="aboutCompany-item-option" 
                       href="https://www.blossend.com/privacy"
                       target="_blank"
@@ -78,10 +79,10 @@ export default function Navbar({handleDrawer}: NavBarProps) {
                     >
                       <ShieldIcon/>
                       Privacy Policy
-                    </a>
+                    </Link>
                   </li>
                   <li className="aboutCompany-collapseMenu-list-item">
-                    <a 
+                    <Link 
                       className="aboutCompany-item-option" 
                       href="https://www.blossend.com/Terms&Conditions"
                       target="_blank"
@@ -89,7 +90,7 @@ export default function Navbar({handleDrawer}: NavBarProps) {
                     >
                       <DocFileIcon/>
                       Terms of Service
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </li>
@@ -99,9 +100,9 @@ export default function Navbar({handleDrawer}: NavBarProps) {
           <button className="aboutCompany-signin-button">
             Sign in
           </button>
-          <a href="/signup">
+          <Link href="/signup">
             <button className="aboutCompany-signup-button">Sign up</button>
-          </a>
+          </Link>
         </div>
       </div>
     </header>

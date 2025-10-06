@@ -1,34 +1,4 @@
 export default function PhysicalHealthSection() {
-  const services = [
-    {
-      badge: "Sports Medicine",
-      icon: "📈",
-      color: "purple",
-      title: "Elite Sports Medicine Center",
-      desc: "Comprehensive sports injury care and rehabilitation",
-    },
-    {
-      badge: "Chiropractic",
-      icon: "🌿",
-      color: "green",
-      title: "Advanced Chiropractic Care",
-      desc: "Expert chiropractic treatments for optimal spine health",
-    },
-    {
-      badge: "Orthopedic",
-      icon: "💜",
-      color: "pink",
-      title: "Orthopedic Excellence",
-      desc: "Specialized orthopedic care and joint health solutions",
-    },
-    {
-      badge: "Physical Therapy",
-      icon: "💪",
-      color: "orange",
-      title: "Prime Physical Therapy",
-      desc: "Professional rehabilitation and movement therapy",
-    },
-  ];
 
   return (
     <section className="section">
@@ -57,7 +27,7 @@ export default function PhysicalHealthSection() {
               </div>
               <h2 className="title">Physical Health, Sports Medicine & Rehabilitation: Chiros, Orthos, Physios, Spas, Massage Therapists & Body Workers</h2>
               <p className="subtitle">
-                Expert care for injury prevention, treatment, and recovery with Blossend's network of certified physical health professionals. <br />
+                Expert care for injury prevention, treatment, and recovery with Blossend&#39;s network of certified physical health professionals. <br />
                 <span className="highlight">Book comprehensive rehabilitation services alongside your wellness appointments.</span>
               </p>
             </div>
@@ -117,7 +87,7 @@ export default function PhysicalHealthSection() {
                       </span>
                     </div>
                     <h3 className="card-title">Wellness Drips</h3>
-                    <p className="card-text">Wellness Drips is Mexico’s premier IV therapy and longevity center, specializing in IV vitamin drips, anti-aging treatments, hydration therapy, detox solutions, and performance optimization. Our medical team blends advanced science with luxury wellness, creating customized IV therapies that boost energy, strengthen immunity, enhance recovery, and promote long-term vitality.Serving wellness travelers, executives, athletes, and local residents, we provide a premium health experience designed for those who value optimal performance, cellular rejuvenation, and holistic wellness. Whether you are seeking rapid recovery, enhanced focus, or cutting-edge longevity protocols, Wellness Drips delivers trusted, science-backed solutions in a modern, luxury environment.</p>
+                    <p className="card-text">Wellness Drips is Mexico&#39;s premier IV therapy and longevity center, specializing in IV vitamin drips, anti-aging treatments, hydration therapy, detox solutions, and performance optimization. Our medical team blends advanced science with luxury wellness, creating customized IV therapies that boost energy, strengthen immunity, enhance recovery, and promote long-term vitality.Serving wellness travelers, executives, athletes, and local residents, we provide a premium health experience designed for those who value optimal performance, cellular rejuvenation, and holistic wellness. Whether you are seeking rapid recovery, enhanced focus, or cutting-edge longevity protocols, Wellness Drips delivers trusted, science-backed solutions in a modern, luxury environment.</p>
                   </div>
                   <div className="card-status-container">
                     <div className="card-status-wrapper">
@@ -171,7 +141,7 @@ export default function PhysicalHealthSection() {
                       </span>
                     </div>
                     <h3 className="card-title">Wellness Drips</h3>
-                    <p className="card-text">Wellness Drips is Mexico’s premier IV therapy and longevity center, specializing in IV vitamin drips, anti-aging treatments, hydration therapy, detox solutions, and performance optimization. Our medical team blends advanced science with luxury wellness, creating customized IV therapies that boost energy, strengthen immunity, enhance recovery, and promote long-term vitality.Serving wellness travelers, executives, athletes, and local residents, we provide a premium health experience designed for those who value optimal performance, cellular rejuvenation, and holistic wellness. Whether you are seeking rapid recovery, enhanced focus, or cutting-edge longevity protocols, Wellness Drips delivers trusted, science-backed solutions in a modern, luxury environment.</p>
+                    <p className="card-text">Wellness Drips is Mexico&#39;s premier IV therapy and longevity center, specializing in IV vitamin drips, anti-aging treatments, hydration therapy, detox solutions, and performance optimization. Our medical team blends advanced science with luxury wellness, creating customized IV therapies that boost energy, strengthen immunity, enhance recovery, and promote long-term vitality.Serving wellness travelers, executives, athletes, and local residents, we provide a premium health experience designed for those who value optimal performance, cellular rejuvenation, and holistic wellness. Whether you are seeking rapid recovery, enhanced focus, or cutting-edge longevity protocols, Wellness Drips delivers trusted, science-backed solutions in a modern, luxury environment.</p>
                   </div>
                   <div className="card-status-container">
                     <div className="card-status-wrapper">

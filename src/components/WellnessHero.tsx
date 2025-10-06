@@ -1,43 +1,6 @@
 import SparklesIcon from "./icons/SparklesIcon";
 
 export default function WellnessAndHolistic() {
-  const services = [
-    {
-      badge: "Meditation",
-      icon: "✦",
-      color: "purple",
-      title: "Lotus Healing Center",
-      desc: "Mindfulness, meditation, and holistic therapies for body and soul",
-    },
-    {
-      badge: "Yoga",
-      icon: "🌿",
-      color: "green",
-      title: "Soul Balance Studio",
-      desc: "Yoga, breathwork, and energy balancing for holistic wellness",
-    },
-    {
-      badge: "Spiritual",
-      icon: "✨",
-      color: "pink",
-      title: "Radiant Spirit Wellness",
-      desc: "Spiritual guidance, reiki, and alternative therapies",
-    },
-    {
-      badge: "Mind-Body",
-      icon: "❤️",
-      color: "orange",
-      title: "Harmony Mind & Body",
-      desc: "Integrative mind-body practices for total wellbeing",
-    },
-    {
-      badge: "Holistic",
-      icon: "💙",
-      color: "blue",
-      title: "Holistic Horizons",
-      desc: "Best practices for holistic wellness",
-    },
-  ];
 
   return (
       <section className="section">
@@ -64,7 +27,7 @@ export default function WellnessAndHolistic() {
                 </div>
                 <h2 className="title">Mind & Body Wellness: IVs, Therapists & Mental Health Specialists, Holistic, Alternative & Spiritual Experts</h2>
                 <p className="subtitle">
-                  Experience transformative healing and balance with Blossend's curated network of holistic and spiritual wellness experts. <br />
+                  Experience transformative healing and balance with Blossend&#39;s curated network of holistic and spiritual wellness experts. <br />
                   <span className="highlight">Book holistic therapies, meditation, and spiritual guidance for mind and body wellness.</span>
                 </p>
               </div>
@@ -124,7 +87,7 @@ export default function WellnessAndHolistic() {
                         </span>
                       </div>
                       <h3 className="card-title">Wellness Drips</h3>
-                      <p className="card-text">Wellness Drips is Mexico’s premier IV therapy and longevity center, specializing in IV vitamin drips, anti-aging treatments, hydration therapy, detox solutions, and performance optimization. Our medical team blends advanced science with luxury wellness, creating customized IV therapies that boost energy, strengthen immunity, enhance recovery, and promote long-term vitality.Serving wellness travelers, executives, athletes, and local residents, we provide a premium health experience designed for those who value optimal performance, cellular rejuvenation, and holistic wellness. Whether you are seeking rapid recovery, enhanced focus, or cutting-edge longevity protocols, Wellness Drips delivers trusted, science-backed solutions in a modern, luxury environment.</p>
+                      <p className="card-text">Wellness Drips is Mexico&#39;s premier IV therapy and longevity center, specializing in IV vitamin drips, anti-aging treatments, hydration therapy, detox solutions, and performance optimization. Our medical team blends advanced science with luxury wellness, creating customized IV therapies that boost energy, strengthen immunity, enhance recovery, and promote long-term vitality.Serving wellness travelers, executives, athletes, and local residents, we provide a premium health experience designed for those who value optimal performance, cellular rejuvenation, and holistic wellness. Whether you are seeking rapid recovery, enhanced focus, or cutting-edge longevity protocols, Wellness Drips delivers trusted, science-backed solutions in a modern, luxury environment.</p>
                     </div>
                     <div className="card-status-container">
                       <div className="card-status-wrapper">
@@ -178,7 +141,7 @@ export default function WellnessAndHolistic() {
                         </span>
                       </div>
                       <h3 className="card-title">Wellness Drips</h3>
-                      <p className="card-text">Wellness Drips is Mexico’s premier IV therapy and longevity center, specializing in IV vitamin drips, anti-aging treatments, hydration therapy, detox solutions, and performance optimization. Our medical team blends advanced science with luxury wellness, creating customized IV therapies that boost energy, strengthen immunity, enhance recovery, and promote long-term vitality.Serving wellness travelers, executives, athletes, and local residents, we provide a premium health experience designed for those who value optimal performance, cellular rejuvenation, and holistic wellness. Whether you are seeking rapid recovery, enhanced focus, or cutting-edge longevity protocols, Wellness Drips delivers trusted, science-backed solutions in a modern, luxury environment.</p>
+                      <p className="card-text">Wellness Drips is Mexico&#39;s premier IV therapy and longevity center, specializing in IV vitamin drips, anti-aging treatments, hydration therapy, detox solutions, and performance optimization. Our medical team blends advanced science with luxury wellness, creating customized IV therapies that boost energy, strengthen immunity, enhance recovery, and promote long-term vitality.Serving wellness travelers, executives, athletes, and local residents, we provide a premium health experience designed for those who value optimal performance, cellular rejuvenation, and holistic wellness. Whether you are seeking rapid recovery, enhanced focus, or cutting-edge longevity protocols, Wellness Drips delivers trusted, science-backed solutions in a modern, luxury environment.</p>
                     </div>
                     <div className="card-status-container">
                       <div className="card-status-wrapper">

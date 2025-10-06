@@ -1,3 +1,4 @@
+import Link from "next/link";
 import "./AddProSection.css"
 
 export default function AddProSection() {
@@ -33,11 +34,11 @@ export default function AddProSection() {
                   Expand Our Network
                 </div>
                 <h2 className="add-pro-left-header-title">
-                  Can't find your
+                  Can&#39;t find your
                   <span className="add-pro-left-header-title-highlight"> Pro or Wellness Center</span>
                   in our directory?
                 </h2>
-                <p className="add-pro-left-header-subtitle">Help us grow our network by adding your trusted professional. We'll verify their credentials and make them available to our community.</p>
+                <p className="add-pro-left-header-subtitle">Help us grow our network by adding your trusted professional. We&#39;ll verify their credentials and make them available to our community.</p>
               </div>
               <div className="add-pro-left-list">
                 <div className="add-pro-left-list-item">
@@ -54,7 +55,7 @@ export default function AddProSection() {
                 </div>
               </div>
               <div className="add-pro-left-button-container">
-                <a href="/add-my-doctor" type="button" className="add-pro-left-button-wrapper">
+                <Link href="/add-my-doctor" type="button" className="add-pro-left-button-wrapper">
                   <button className="add-pro-left-button">
                     <span className="add-pro-left-button-content">
                       <svg 
@@ -81,7 +82,7 @@ export default function AddProSection() {
                     </span>
                     <div className="add-pro-left-button-gradient"></div>
                   </button>
-                </a>
+                </Link>
               </div>
               <div className="add-pro-left-reviewbar">
                 <div className="add-pro-left-reviewbar-item">
@@ -125,7 +126,7 @@ export default function AddProSection() {
                   </div>
                 </div>
                 <div className="add-pro-right-addbutton-container">
-                  <a type="button" href="/add-my-doctor" className="add-pro-right-addbutton">
+                  <Link type="button" href="/add-my-doctor" className="add-pro-right-addbutton">
                     <svg 
                       xmlns="http://www.w3.org/2000/svg" 
                       width="24" 
@@ -141,7 +142,7 @@ export default function AddProSection() {
                       <path d="M5 12h14"></path>
                       <path d="M12 5v14"></path>
                     </svg>
-                  </a>
+                  </Link>
                 </div>
                 <div className="add-pro-right-wellness-container">
                   <div className="add-pro-right-wellness-gradient"></div>
@@ -168,7 +169,7 @@ export default function AddProSection() {
                             <path d="m21 21-4.3-4.3"></path>
                           </svg>
                         </div>
-                        <a href="/add-my-doctor" type="button" className="add-pro-right-wellness-icon-button">
+                        <Link href="/add-my-doctor" type="button" className="add-pro-right-wellness-icon-button">
                           <svg 
                             xmlns="http://www.w3.org/2000/svg" 
                             width="24" 
@@ -184,17 +185,17 @@ export default function AddProSection() {
                             <path d="M5 12h14"></path>
                             <path d="M12 5v14"></path>
                           </svg>
-                        </a>
+                        </Link>
                       </div>
                       <div className="add-pro-right-wellness-wrapper-content">
                         <h3 className="add-pro-right-wellness-wrapper-content-title">
                           Pro or Wellness Center Not Found?
                         </h3>
                         <p className="add-pro-right-wellness-wrapper-content-subtitle">
-                          Can't find your professional? Help us grow our network by adding your trusted health, wellness, or lifestyle professional.
+                          Can&#39;t find your professional? Help us grow our network by adding your trusted health, wellness, or lifestyle professional.
                         </p>
                       </div>
-                      <a type="button" href="/add-my-doctor" className="add-pro-right-wellness-wrapper-content-button">
+                      <Link type="button" href="/add-my-doctor" className="add-pro-right-wellness-wrapper-content-button">
                         <svg 
                           xmlns="http://www.w3.org/2000/svg" 
                           width="24" 
@@ -213,7 +214,7 @@ export default function AddProSection() {
                           <line x1="22" x2="16" y1="11" y2="11"></line>
                         </svg>
                         Click to add Pro or Wellness Center
-                      </a>
+                      </Link>
                     </div>
                     <div className="bounce-container">
                       <div className="inner-dot"></div>

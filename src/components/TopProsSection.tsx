@@ -138,7 +138,7 @@ export default function TopProsSection() {
         </div>
         <div className="carousel-headerdivider"></div>
         <p className="available-subtitle">
-          Verified top-performing professionals selected by Blossend's quality standards
+          Verified top-performing professionals selected by Blossend&#39;s quality standards
         </p>
       </div>
       <DoctorCardSlider

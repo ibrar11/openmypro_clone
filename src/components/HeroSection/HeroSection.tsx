@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import RightArrow from '../icons/RightArrow/RightArrow'
 import "./HeroSection.css"
+import Link from "next/link";
 
 const HeroSection = () => {
   const [current, setCurrent] = useState(0);
@@ -47,13 +48,13 @@ const HeroSection = () => {
                         Connect with top professionals, book appointments instantly, and take charge of your personal care journey.
                       </p>
                     </div>
-                    <a href="/signup" className='hero-text-section-2'>
+                    <Link href="/signup" className='hero-text-section-2'>
                       <button className="hero-text-section-2-button">
                         Get Started Now
                         <RightArrow/>
                         <div className='hero-text-section-2-button-styles'></div>
                       </button>
-                    </a>
+                    </Link>
                     <div className='hero-text-section-3'>
                       <div className='hero-text-section-3-feature'>
                         <span className='hero-text-section-3-feature-icon'>
@@ -148,20 +149,20 @@ const HeroSection = () => {
                         Join our platform to grow your business effortlessly. Reach more clients, streamline bookings and payments, and unlock exclusive member benefits — so you can focus on delivering exceptional service.
                       </p>
                     </div>
-                    <a href="/signup" className='hero-text-section-2'>
+                    <Link href="/signup" className='hero-text-section-2'>
                       <button className="hero-text-section-2-button" style={{marginTop: '0'}}>
                         Join as a Wellness Pro
                         <RightArrow/>
                         <div className='hero-text-section-2-button-styles'></div>
                       </button>
-                    </a>
+                    </Link>
                     <div className='hero-text-section-2_5'>
                       <p>Already a member?</p>
-                      <a href="/signin">
+                      <Link href="/signin">
                         <button className='hero-text-section-2_5-button'>
                           Signin
                         </button>
-                      </a>
+                      </Link>
                     </div>
                     <div className='hero-text-section-3'>
                       <div className='hero-text-section-3-feature'>

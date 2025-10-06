@@ -1,3 +1,4 @@
+import Link from "next/link";
 import "./WellnessCategories.css"
 
 export default function WellnessCategories() {
@@ -97,7 +98,7 @@ export default function WellnessCategories() {
         </div>
         <div className="wellness-category-section-content-subcontainer">
           <div className="wellness-category-section-content-grid">
-            <a
+            <Link
               href="/search?specialization=chiropractic,hand%20surgery,orthopedic%20surgery,osteopathic%20manipulative%20medicine,physical%20medicine%20and%20rehabilitation,physical%20therapy,podiatry,sports%20medicine"
               className="wellness-category-section-content-card wellness-category-section-content-card-span-2"
               style={{ animationDelay: "0s" }}
@@ -142,8 +143,8 @@ export default function WellnessCategories() {
                 </div>
               </div>
               <div className="wellness-category-section-content-card-hover-overlay orange-shade"></div>
-            </a>
-            <a
+            </Link>
+            <Link
               href="/search?specialization=chiropractic,hand%20surgery,orthopedic%20surgery,osteopathic%20manipulative%20medicine,physical%20medicine%20and%20rehabilitation,physical%20therapy,podiatry,sports%20medicine"
               className="wellness-category-section-content-card"
               style={{ animationDelay: "0s" }}
@@ -188,8 +189,8 @@ export default function WellnessCategories() {
                 </div>
               </div>
               <div className="wellness-category-section-content-card-hover-overlay orange-shade"></div>
-            </a>
-            <a
+            </Link>
+            <Link
               href="/search?specialization=chiropractic,hand%20surgery,orthopedic%20surgery,osteopathic%20manipulative%20medicine,physical%20medicine%20and%20rehabilitation,physical%20therapy,podiatry,sports%20medicine"
               className="wellness-category-section-content-card"
               style={{ animationDelay: "0s" }}
@@ -234,8 +235,8 @@ export default function WellnessCategories() {
                 </div>
               </div>
               <div className="wellness-category-section-content-card-hover-overlay orange-shade"></div>
-            </a>
-            <a
+            </Link>
+            <Link
               href="/search?specialization=chiropractic,hand%20surgery,orthopedic%20surgery,osteopathic%20manipulative%20medicine,physical%20medicine%20and%20rehabilitation,physical%20therapy,podiatry,sports%20medicine"
               className="wellness-category-section-content-card"
               style={{ animationDelay: "0s", gridRow: "span 2 / span 2" }}
@@ -280,8 +281,8 @@ export default function WellnessCategories() {
                 </div>
               </div>
               <div className="wellness-category-section-content-card-hover-overlay orange-shade"></div>
-            </a>
-            <a
+            </Link>
+            <Link
               href="/search?specialization=chiropractic,hand%20surgery,orthopedic%20surgery,osteopathic%20manipulative%20medicine,physical%20medicine%20and%20rehabilitation,physical%20therapy,podiatry,sports%20medicine"
               className="wellness-category-section-content-card"
               style={{ animationDelay: "0s" }}
@@ -326,8 +327,8 @@ export default function WellnessCategories() {
                 </div>
               </div>
               <div className="wellness-category-section-content-card-hover-overlay orange-shade"></div>
-            </a>
-            <a
+            </Link>
+            <Link
               href="/search?specialization=chiropractic,hand%20surgery,orthopedic%20surgery,osteopathic%20manipulative%20medicine,physical%20medicine%20and%20rehabilitation,physical%20therapy,podiatry,sports%20medicine"
               className="wellness-category-section-content-card wellness-category-section-content-card-span-2"
               style={{ animationDelay: "0s" }}
@@ -372,8 +373,8 @@ export default function WellnessCategories() {
                 </div>
               </div>
               <div className="wellness-category-section-content-card-hover-overlay orange-shade"></div>
-            </a>
-            <a
+            </Link>
+            <Link
               href="/search?specialization=chiropractic,hand%20surgery,orthopedic%20surgery,osteopathic%20manipulative%20medicine,physical%20medicine%20and%20rehabilitation,physical%20therapy,podiatry,sports%20medicine"
               className="wellness-category-section-content-card"
               style={{ animationDelay: "0s" }}
@@ -418,8 +419,8 @@ export default function WellnessCategories() {
                 </div>
               </div>
               <div className="wellness-category-section-content-card-hover-overlay orange-shade"></div>
-            </a>            
-            <a
+            </Link>            
+            <Link
               href="/search?specialization=chiropractic,hand%20surgery,orthopedic%20surgery,osteopathic%20manipulative%20medicine,physical%20medicine%20and%20rehabilitation,physical%20therapy,podiatry,sports%20medicine"
               className="wellness-category-section-content-card wellness-category-section-content-card-span-2"
               style={{ animationDelay: "0s" }}
@@ -464,7 +465,7 @@ export default function WellnessCategories() {
                 </div>
               </div>
               <div className="wellness-category-section-content-card-hover-overlay orange-shade"></div>
-            </a>
+            </Link>
           </div>
         </div>
       </div>

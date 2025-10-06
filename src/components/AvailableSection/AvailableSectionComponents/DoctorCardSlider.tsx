@@ -4,6 +4,7 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import "./DoctorCardSlider.css";
+import Link from 'next/link';
 
 type Doctor = {
   id: number;
@@ -38,7 +39,7 @@ const DoctorCardSlider = ({ doctors }: Props) => {
                   style={{ backgroundImage: `url(${doc.image})` }}
                 >
                   <div className="doctor-card-overlay" />
-                  <a className="doctor-card-content">
+                  <Link href={''} className="doctor-card-content">
                     <div className="doctor-name-wrapper">
                       <p className="doctor-name">
                         <span>Alyssa</span> <span>Cappelletti</span>
@@ -110,7 +111,7 @@ const DoctorCardSlider = ({ doctors }: Props) => {
                         <span>Book Now</span>
                       </button>
                     </div>
-                  </a>
+                  </Link>
                   <div className="doctor-hover-bar"></div>
                 </div>
               </div>
