@@ -1,0 +1,10 @@
+.close-button {
+  width: 1.5rem;     /* matches fontSizeMedium (24px) */
+  height: 1.5rem;
+  fill: currentColor;
+  transition: transform 300ms ease-in-out;
+}
+
+.close-button:hover {
+  transform: rotate(90deg);
+}

@@ -1,0 +1,10 @@
+.searchIcon {
+  color: #ffffff;        
+  height: 1.25rem;       
+  width: 1.25rem;        
+  transition: transform 75ms ease-in
+}
+
+.searchIcon:hover {
+  transform: scale(1.05);
+}

@@ -1,0 +1,8 @@
+.arrow-right-icon {
+    transition: transform 0.2s ease-in-out;
+    display: inline-block;
+}
+
+.icon-wrapper:hover .arrow-right-icon {
+    transform: translateX(4px);
+}

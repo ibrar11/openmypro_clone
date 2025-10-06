@@ -1,0 +1,257 @@
+.wellness-category-section{
+  padding-top:6rem;
+  padding-bottom:6rem;
+  background-image:linear-gradient(to bottom right,#f8fafc,#ffffff,#f9fafb);
+  position:relative;
+  overflow:hidden;
+}
+.wellness-category-section-bg-container{
+  position:absolute;
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
+  overflow:hidden;
+}
+.wellness-category-section-bg-1{
+  position:absolute;
+  top:-10rem;
+  right:-10rem;
+  width:20rem;
+  height:20rem;
+  background-image:linear-gradient(to bottom right,rgba(191,219,254,0.3),rgba(233,213,255,0.3));
+  border-radius:9999px;
+  filter:blur(64px);
+}
+.wellness-category-section-bg-2{
+  position:absolute;
+  bottom:-10rem;
+  left:-10rem;
+  width:20rem;
+  height:20rem;
+  background-image:linear-gradient(to bottom right,rgba(251,207,232,0.3),rgba(255,215,180,0.3));
+  border-radius:9999px;
+  filter:blur(64px);
+}
+.wellness-category-section-bg-3{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  width:24rem;
+  height:24rem;
+  background-image:linear-gradient(to bottom right,rgba(224,231,255,0.2),rgba(243,232,255,0.2));
+  border-radius:9999px;
+  filter:blur(64px);
+}
+.wellness-category-section-content-container{
+  max-width:80rem;
+  margin-left:auto;
+  margin-right:auto;
+  padding-left:1rem;
+  padding-right:1rem;
+  position:relative;
+  margin-bottom:-5rem;
+}
+.wellness-category-section-content-header-text-center{
+  text-align:center;
+  margin-bottom:5rem;
+}
+.wellness-category-section-content-header-badge{
+  display:inline-flex;
+  align-items:center;
+  padding:0.5rem 1rem;
+  background:linear-gradient(to right,#bfdbfe,#a5f3fc);
+  border-radius:9999px;
+  font-size:0.875rem;
+  font-weight:500;
+  color:#374151;
+  margin-bottom:1.5rem;
+}
+.wellness-category-section-content-header-icon{
+  width:1rem;
+  height:1rem;
+  margin-right:0.5rem;
+}
+.wellness-category-section-content-header-heading{
+  font-size:3rem;
+  font-weight:700;
+  margin-bottom:2rem;
+  line-height:1.2;
+}
+.wellness-category-section-content-header-gradient-text{
+  background:linear-gradient(to right,#14b8a6,#22d3ee,#14b8a6);
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+}
+.wellness-category-section-content-header-description{
+  font-size:1.25rem;
+  color:#4b5563;
+  max-width:64rem;
+  margin:0 auto;
+  line-height:1.75rem;
+}
+.wellness-category-section-content-subcontainer{
+  width:100%;
+  max-width:90rem;
+  padding:0 1rem;
+  margin:0 auto;
+}
+.wellness-category-section-content-grid{
+  display:grid;
+  grid-template-columns:repeat(1,1fr);
+  gap:1rem;
+  margin-bottom:5rem;
+}
+.wellness-category-section-content-card{
+  position:relative;
+  display:flex;
+  flex-direction:column;
+  min-height:200px;
+  background:rgba(255,255,255,0.95);
+  backdrop-filter:blur(6px);
+  border-radius:1rem;
+  border:1px solid rgba(255,255,255,0.3);
+  box-shadow:0 10px 15px rgba(0,0,0,0.1);
+  overflow:hidden;
+  cursor:pointer;
+  transition:all 0.5s;
+  animation:fadeIn 0.7s forwards;
+}
+.wellness-category-section-content-card:hover{
+  transform:translateY(-0.25rem);
+  box-shadow:0 15px 25px rgba(0,0,0,0.15);
+}
+.wellness-category-section-content-card-body{
+  position:relative;
+  padding:1.5rem;
+  display:flex;
+  flex-direction:column;
+  height:100%;
+}
+.wellness-category-section-content-card-icon{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  width:3rem;
+  height:3rem;
+  border-radius:0.75rem;
+  margin-bottom:1rem;
+  box-shadow:0 4px 6px rgba(0,0,0,0.1);
+  transition:transform 0.3s;
+  flex-shrink:0;
+}
+.wellness-category-section-content-card:hover .wellness-category-section-content-card-icon{
+  transform:scale(1.1);
+}
+.wellness-category-section-content-card-title{
+  font-weight:700;
+  font-size:1.25rem;
+  color:#111827;
+  margin-bottom:0.75rem;
+  transition:color 0.3s;
+}
+.wellness-category-section-content-card:hover .wellness-category-section-content-card-title{
+  color:#1f2937;
+}
+.wellness-category-section-content-card-text{
+  font-size:0.875rem;
+  color:#4b5563;
+  line-height:1.625rem;
+  margin-bottom:1rem;
+  flex-grow:1;
+  transition:color 0.3s;
+}
+.wellness-category-section-content-card:hover .wellness-category-section-content-card-text{
+  color:#374151;
+}
+.wellness-category-section-content-card-footer{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding-top:1rem;
+  border-top:1px solid #f3f4f6;
+}
+.wellness-category-section-content-card-footer-left{
+  display:flex;
+  align-items:center;
+}
+.wellness-category-section-content-card-footer-left div{
+  width:0.5rem;
+  height:0.5rem;
+  background-image:linear-gradient(to right,#f97316,#dc2626);
+  border-radius:9999px;
+  margin-right:0.5rem;
+}
+.wellness-category-section-content-card-footer-left span{
+  color:#374151;
+  font-weight:500;
+  font-size:0.875rem;
+  line-height:1.25rem;
+}
+.wellness-category-section-content-card-footer-right{
+  display:flex;
+  align-items:center;
+  font-size:0.75rem;
+  font-weight:500;
+  background-clip:text;
+  -webkit-background-clip:text;
+  color:transparent;
+  opacity:0;
+  transition:all 0.3s;
+}
+.wellness-category-section-content-card:hover .wellness-category-section-content-card-footer-right{
+  opacity:1;
+  color:#f97316;
+}
+.wellness-category-section-content-card-footer-icon{
+  width:0.75rem;
+  height:0.75rem;
+  margin-left:0.25rem;
+  transition:transform 0.3s;
+}
+.wellness-category-section-content-card:hover .wellness-category-section-content-card-footer-icon{
+  transform:translateX(0.25rem);
+}
+.wellness-category-section-content-card-hover-bg{
+  position:absolute;
+  inset:0;
+  opacity:0;
+}
+.wellness-category-section-content-card:hover .wellness-category-section-content-card-hover-bg{
+  background:rgb(252,237,230);
+}
+.wellness-category-section-content-card-hover-overlay{
+  position:absolute;
+  inset:0;
+  border-radius:1rem;
+  opacity:0;
+  transition:opacity 0.7s;
+}
+.wellness-category-section-content-card:hover .wellness-category-section-content-card-hover-overlay{
+  opacity:0.05;
+}
+.orange-shade{background:#f97316}
+.blue-shade{background:linear-gradient(to right,#3b82f6,#6366f1)}
+.rose-shade{background:linear-gradient(to right,#f43f5e,#ec4899)}
+.green-shade{background:linear-gradient(to right,#10b981,#059669)}
+.purple-shade{background:linear-gradient(to right,#8b5cf6,#7c3aed)}
+.yellow-shade{background:linear-gradient(to right,#facc15,#f59e0b)}
+.pink-shade{background:linear-gradient(to right,#ec4899,#db2777)}
+.amber-shade{background:linear-gradient(to right,#fbbf24,#f97316)}
+@keyframes fadeIn{from{opacity:0;transform:translateY(1rem)}to{opacity:1;transform:translateY(0)}}
+@media(min-width:640px){
+  .wellness-category-section-content-container,.wellness-category-section-content-subcontainer{padding-left:1.5rem;padding-right:1.5rem}
+}
+@media(min-width:768px){
+  .wellness-category-section-content-header-heading{font-size:3.75rem}
+  .wellness-category-section-content-grid{grid-template-columns:repeat(2,1fr)}
+  .wellness-category-section-content-card-span-2{grid-column:span 2 / span 2}
+}
+@media(min-width:1024px){
+  .wellness-category-section-content-container,.wellness-category-section-content-subcontainer{padding-left:2rem;padding-right:2rem}
+  .wellness-category-section-content-grid{grid-template-columns:repeat(3,1fr)}
+}
+@media(min-width:1280px){
+  .wellness-category-section-content-grid{grid-template-columns:repeat(4,1fr)}
+}
