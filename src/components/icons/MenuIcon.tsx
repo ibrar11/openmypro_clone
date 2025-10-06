@@ -1,7 +1,7 @@
 import React from 'react'
 
 type MenuIconProps = {
-  handleDrawer: (...args: any[]) => unknown
+  handleDrawer: (...args: void[]) => unknown
 }
 
 const MenuIcon = ({handleDrawer}: MenuIconProps) => {
@@ -16,7 +16,7 @@ const MenuIcon = ({handleDrawer}: MenuIconProps) => {
       strokeWidth={2}
       strokeLinecap="round"
       strokeLinejoin="round"
-      onClick={handleDrawer}
+      onClick={()=>handleDrawer()}
     >
       <line x1={4} x2={20} y1={12} y2={12} />
       <line x1={4} x2={20} y1={6} y2={6} />
